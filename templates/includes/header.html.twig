@@ -39,7 +39,9 @@ input[type=search]:focus {
 	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
 	box-shadow: 0 0 5px rgba(109,207,246,.5);
 }
-
+.cc{
+  color:#0000!important;
+}
 
 input:-moz-placeholder {
 	color: #999;
@@ -83,7 +85,7 @@ input::-webkit-input-placeholder {
   overflow: hidden;
   color: #ffff;
   border-radius: 30px;
-  box-shadow: 0px -0px 0px 0px rgba(143, 64,   248, .5), 0px 0px 0px 0px rgba(39, 200, 255, .5);
+  box-shadow: 0px -0px 0px 0px rgba(143, 64, 248, .5), 0px 0px 0px 0px rgba(39, 200, 255, .5);
 }
 
 .identifie::after a{
@@ -93,7 +95,7 @@ input::-webkit-input-placeholder {
   position: absolute;
   top: -50px;
   left: -100px;
-  background-image: linear-gradient(225deg,   #27d86c 0%, #26caf8 50%, #c625d0 100%);
+  background-image: linear-gradient(225deg, #27d86c 0%, #26caf8 50%, #c625d0 100%);
   z-index: -1;
   transition: all .5s;
 }
@@ -104,7 +106,7 @@ input::-webkit-input-placeholder {
 
 .identifie:hover a{
   transform: translate(0,-6px);
-  box-shadow: 10px -10px 25px 0px rgba(143,   64, 248, .25), -10px 10px 25px 0px rgba(39, 200,   255, .25);
+  box-shadow: 10px -10px 25px 0px rgba(143, 64, 248, .25), -10px 10px 25px 0px rgba(39, 200, 255, .25);
 }
 </style>
 
@@ -112,7 +114,7 @@ input::-webkit-input-placeholder {
     <header class="">
       <nav class="navbar navbar-expand-lg">
       <div class="container">
-          <a class="navbar-brand" href="/"><img src="{{asset('assets/images/logo.png')}}" alt="..."></a>
+          <h2 class="navbar-brand" href="/"><img src="#" style="height:50px; font-weight:800;color:#f33f3f;width:auto" alt="AFRICASTOCK" ></h2>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -160,7 +162,7 @@ input::-webkit-input-placeholder {
                     <span class="sr-only">Toggle Dropdown</span>
                 </button>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Images</a>
+                    <a class="dropdown-item cc" href="#">Images</a>
                     <a class="dropdown-item" href="#">Illustration</a>
                     <a class="dropdown-item" href="#">Videographie</a>
                     <a class="dropdown-item" href="#">VoixOff</a>
